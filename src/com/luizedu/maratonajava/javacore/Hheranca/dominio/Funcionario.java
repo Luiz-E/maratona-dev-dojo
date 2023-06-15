@@ -1,18 +1,18 @@
-package com.luizedu.maratonajava.javacore.Hherança.dominio;
+package com.luizedu.maratonajava.javacore.Hheranca.dominio;
 
 public class Funcionario extends Pessoa{
     private double salario;
 
     static {
-        System.out.println("Dentro do bloco de inicialização estático de funcionário");
+        System.out.println("Dentro do bloco de inicializaï¿½ï¿½o estï¿½tico de funcionï¿½rio");
     }
     {
-        System.out.println("Dentro do bloco de inicialização de funcionário");
+        System.out.println("Dentro do bloco de inicializaï¿½ï¿½o de funcionï¿½rio");
     }
 
     public Funcionario(String nome) {
         super(nome);
-        System.out.println("Dentro do construtor de funcionário");
+        System.out.println("Dentro do construtor de funcionï¿½rio");
     }
 
     public void imprime() {
@@ -21,7 +21,7 @@ public class Funcionario extends Pessoa{
     }
 
     public void relatorioPagamento() {
-        System.out.println("Eu " + this.nome +" recebi o salário de " + this.salario);
+        System.out.println("Eu " + this.nome +" recebi o salï¿½rio de " + this.salario);
     }
 
     public double getSalario() {

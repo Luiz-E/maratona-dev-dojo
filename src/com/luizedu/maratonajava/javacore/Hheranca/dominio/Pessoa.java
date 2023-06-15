@@ -1,14 +1,14 @@
-package com.luizedu.maratonajava.javacore.Hherança.dominio;
+package com.luizedu.maratonajava.javacore.Hheranca.dominio;
 
 public class Pessoa {
     protected String nome;
     protected String cpf;
     protected Endereco endereco;
     static {
-        System.out.println("Dentro do bloco de inicialização estático de pessoa");
+        System.out.println("Dentro do bloco de inicializaï¿½ï¿½o estï¿½tico de pessoa");
     }
     {
-        System.out.println("Dentro do bloco de inicialização de pessoa");
+        System.out.println("Dentro do bloco de inicializaï¿½ï¿½o de pessoa");
     }
 
     public Pessoa(String nome) {

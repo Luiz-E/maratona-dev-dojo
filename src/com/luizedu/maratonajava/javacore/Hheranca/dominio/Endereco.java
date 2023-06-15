@@ -1,4 +1,4 @@
-package com.luizedu.maratonajava.javacore.Hherança.dominio;
+package com.luizedu.maratonajava.javacore.Hheranca.dominio;
 
 public class Endereco {
     private String rua;
