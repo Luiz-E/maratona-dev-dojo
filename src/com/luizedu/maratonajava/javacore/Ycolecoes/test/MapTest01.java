@@ -8,8 +8,8 @@ public class MapTest01 {
         Map<String, String> map = new HashMap<>();
         map.put("teklado","teclado");
         map.put("mouze","mouse");
-        map.put("vc","você");
-        map.putIfAbsent("vc","você2");
+        map.put("vc","vocÃª");
+        map.putIfAbsent("vc","vocÃª2");
         for (String key : map.keySet()) {
             System.out.println(key + " : " + map.get(key));
         }
