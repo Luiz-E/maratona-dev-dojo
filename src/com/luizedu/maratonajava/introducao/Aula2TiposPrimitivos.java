@@ -5,7 +5,7 @@ package com.luizedu.maratonajava.introducao;
 public class Aula2TiposPrimitivos {
     public static void main(String[] args) {
 
-        //INTRODUÇÃO
+        //INTRODUÃ‡ÃƒO
 
         //int, double, float, char, byte, short, long, boolean
         int age = 10;
@@ -18,7 +18,7 @@ public class Aula2TiposPrimitivos {
         char gender = 'M';
         char character = 65;
 
-        System.out.println("A idade é " + age);
+        System.out.println("A idade Ã© " + age);
         System.out.println(iWillFinishThisCourse);
         System.out.println(character);
 
@@ -30,9 +30,9 @@ public class Aula2TiposPrimitivos {
         System.out.println(bigNumber);
 
         //STRINGS
-        // String é um tipo de referência
+        // String Ã© um tipo de referÃªncia
 
-        String texto = "É um texto";
+        String texto = "Ã‰ um texto";
         System.out.println(texto);
     }
 }
