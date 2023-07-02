@@ -3,6 +3,10 @@ package com.luizedu.maratonajava.javacore.Zgenerics.domain;
 public class Barco {
     private String nome;
 
+    public String getNome() {
+        return nome;
+    }
+
     @Override
     public String toString() {
         return "Barco{" +
