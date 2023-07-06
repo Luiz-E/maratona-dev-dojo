@@ -4,7 +4,6 @@ import com.luizedu.maratonajava.javacore.ZZClambdas.dominio.Anime;
 import com.luizedu.maratonajava.javacore.ZZClambdas.service.AnimeComparators;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class MethodReferenceTest01 {
