@@ -2,7 +2,9 @@ package com.luizedu.maratonajava.javacore.ZZEstreams.test;
 
 import com.luizedu.maratonajava.javacore.ZZEstreams.dominio.LightNovel;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
 
 // order by title
 // retrieve first 3 with price less than 4
